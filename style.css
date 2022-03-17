@@ -1,0 +1,134 @@
+* {
+  background-color: rgba(0, 0, 0, 0.74);
+  margin: 0;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  height: 5rem;
+  width: 6rem;
+  border: solid;
+  border-radius: 25%;
+  color: antiquewhite;
+  margin-bottom: 4rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: solid;
+  border-color: black;
+  border-radius: 25%;
+}
+
+.pause-button {
+  background-color: rgba(13, 128, 196, 0.774);
+  color: black;
+  border: solid;
+  border-color: black;
+  border-radius: 25%;
+}
+
+.stop-button {
+  background-color: rgba(13, 128, 196, 0.774);
+  border: solid;
+  border-radius: 25%;
+  border-color: black;
+}
+
+.reset-button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: solid;
+  border-color: black;
+  border-radius: 25%;
+}
+
+.start-button i {
+  margin-right: 0.5rem;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+}
+
+.reset-button i {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-right: 0.5rem;
+}
+
+.pause-button i {
+  background-color: rgba(13, 128, 196, 0.774);
+  color: rgb(0, 0, 0);
+  margin-right: 0.5rem;
+}
+
+.stop-button i {
+  background-color: rgba(13, 128, 196, 0.774);
+  color: rgb(0, 0, 0);
+  margin-right: 0.5rem;
+}
+
+#timer {
+  margin-top: 11rem;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#watch {
+  color: antiquewhite;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100vh;
+  width: 100vw;
+}
+
+#timer span {
+  color: rgba(13, 128, 196, 0.774);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  img {
+    visibility: hidden;
+  }
+
+  #timer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  button {
+    height: 8rem;
+    width: 9rem;
+    border: solid;
+    border-radius: 25%;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+}
